@@ -14,14 +14,15 @@ const Counter = () => {
   };
   return (
     <div>
-      Counter
-      <h1 className="heading">Counter</h1>
-      <p className="count">{count}</p>
-      <div className="buttons">
-        <button onClick={handleDecrease}>-</button>
-        <button onClick={handleIncrease}>+</button>
-        <button onClick={handleZeroing}>0</button>
-      </div>
+      <h1 className="heading">
+        Counter
+        <p className="count">{count}</p>
+        <div className="buttons">
+          <button onClick={handleDecrease}>-</button>
+          <button onClick={handleIncrease}>+</button>
+          <button onClick={handleZeroing}>0</button>
+        </div>
+      </h1>
     </div>
   );
 };
